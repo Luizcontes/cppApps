@@ -14,7 +14,5 @@ int main() {
     for (int i=0; i<3; i++)
         cout << stack->pop() << endl;
     
-    delete[] stack;
-
     return 0;
 }
